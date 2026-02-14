@@ -1,0 +1,110 @@
+{
+  "profile": {
+    "fullName": "Vivian Mibei",
+    "headline": "Data Analyst / Business Intelligence Developer",
+    "location": "Sydney, Australia",
+    "summary": "Qualified Business Intelligence Developer and Data Analyst with experience in SQL, Power BI, SSRS, SSIS, and data warehousing. Skilled in data preparation, analysis, report development, and business intelligence solutions.",
+    "skills": [
+      "Data Visualization (Power BI)",
+      "Data Analysis",
+      "Business Intelligence (SSIS, ETL/ELT)",
+      "Advanced Power BI (DAX)",
+      "SSAS Tabular",
+      "Microsoft SQL Server",
+      "SQL Programming (Stored Procedures, Functions)",
+      "Relational Database Management System (RDBMS)",
+      "Data Warehouse Design",
+      "SSRS and Paginated Report Development",
+      "Data Modelling",
+      "Database Development",
+      "Statistical Knowledge",
+      "Microsoft Excel",
+      "Communication",
+      "Problem Solving",
+      "Teamwork",
+      "Leadership",
+      "Critical Thinking"
+    ],
+    "certifications": [
+      {
+        "title": "Business Analysis | Data Analysis | Data Cleaning | Data Warehouse | Power BI | SQL Knowledge | Communication Skills",
+        "issuer": null,
+        "dateRange": "Oct 2020 – Dec 2020"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "title": "Data Analyst",
+      "company": "AusBiz Consulting",
+      "location": "Sydney, New South Wales, Australia",
+      "startDate": "September 2022",
+      "endDate": "Current",
+      "responsibilities": [
+        "Cancer Analytics project using NHS UK synthetic cancer registry data",
+        "Requirement gathering, data acquisition, preparation, cleaning, and transformation",
+        "Populating data into Azure SQL",
+        "Conducting detailed data analysis and generating insights",
+        "Outlining change control procedures",
+        "Generating Power BI reports"
+      ]
+    },
+    {
+      "title": "Business Intelligence Developer / Data Analyst",
+      "company": "MVP Studio",
+      "location": "Sydney, New South Wales, Australia",
+      "startDate": null,
+      "endDate": null,
+      "responsibilities": [
+        "Property analysis project using SQL queries and SSRS reporting",
+        "Integrating property data from multiple government data sources",
+        "Using MS SQL Server, SSIS, Power Query, SSRS, and Power BI to build solutions",
+        "Creating and optimizing SQL queries, stored procedures, and functions",
+        "Designing the data warehouse and SSIS packages",
+        "Developing and maintaining Power BI dashboards and SSRS reports"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Federation University",
+      "degree": "Master of Technology (Software Engineering)",
+      "startDate": "July 2019",
+      "endDate": "2024"
+    },
+    {
+      "institution": "Australian Technical & Management College",
+      "degree": "Bachelor of Information Technology",
+      "startDate": "Nov 2020",
+      "endDate": null
+    },
+    {
+      "institution": "Industry Connect Program",
+      "degree": "Business Intelligence Developer (Microsoft SQL Server, Power BI, Data Warehouse, SSIS, SSAS, SSRS, ETL)",
+      "startDate": "2022",
+      "endDate": null
+    }
+  ],
+  "projects": [
+    {
+      "name": "Cancer Analytics Project",
+      "description": "Data analysis and reporting using synthetic cancer registry data sourced from the NHS UK."
+    },
+    {
+      "name": "Property Analysis (Australia)",
+      "description": "Integrated property data from multiple government sources and developed analytics dashboards and reports."
+    },
+    {
+      "name": "Chat Bot System",
+      "description": "Designed and developed a chatbot system for a real estate company."
+    }
+  ],
+  "additionalDetails": {
+    "workEthic": "Strong work ethic mentioned",
+    "summaryHighlights": [
+      "Over 1 year of professional experience as a business intelligence developer and data analyst",
+      "Involved in end-to-end analytics projects",
+      "Worked with BI tools, data warehouses, and reporting technologies"
+    ]
+  }
+}
