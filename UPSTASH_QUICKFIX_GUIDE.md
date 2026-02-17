@@ -64,7 +64,7 @@ UPSTASH_VECTOR_REST_TOKEN=ABkFMHBlYWNlZnVsLXBvc3N1bS0zNDIwOS11czFhZG1pbk4ySmlNV0
 ```
 UPSTASH_VECTOR_REST_URL=https://your-new-url-us1-vector.upstash.io
 UPSTASH_VECTOR_REST_TOKEN=your-new-token-here
-GROQ_API_KEY=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
+GROQ_API_KEY=your-groq-api-key-here
 ```
 
 ⚠️ **IMPORTANT:**
