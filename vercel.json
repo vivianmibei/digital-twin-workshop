@@ -1,14 +1,8 @@
 {
   "buildCommand": "cd frontend && pnpm install && pnpm build",
   "framework": "nextjs",
-  "nodeVersion": "20.x",
+  "nodejs": "20.x",
   "outputDirectory": "frontend/.next",
   "rootDirectory": "frontend",
-  "installCommand": "cd frontend && pnpm install",
-  "env": [
-    "NEXT_PUBLIC_API_URL",
-    "GROQ_API_KEY",
-    "UPSTASH_VECTOR_REST_URL",
-    "UPSTASH_VECTOR_REST_TOKEN"
-  ]
+  "installCommand": "cd frontend && pnpm install"
 }
