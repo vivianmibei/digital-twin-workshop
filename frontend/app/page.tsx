@@ -3,6 +3,7 @@
 import { useState } from "react"
 import ChatInterface from "@/components/ChatInterface"
 import ProfileViewer from "@/components/ProfileViewer"
+import InterviewPage from "@/components/InterviewPage"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export default function Home() {
@@ -21,9 +22,10 @@ export default function Home() {
 
         {/* Tabs */}
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-          <TabsList className="grid w-full grid-cols-2 mb-6">
+          <TabsList className="grid w-full grid-cols-3 mb-6">
             <TabsTrigger value="chat">Chat</TabsTrigger>
             <TabsTrigger value="profile">Profile</TabsTrigger>
+            <TabsTrigger value="interview">Interview</TabsTrigger>
           </TabsList>
 
           <TabsContent value="chat" className="w-full">
@@ -32,6 +34,10 @@ export default function Home() {
 
           <TabsContent value="profile" className="w-full">
             <ProfileViewer />
+          </TabsContent>
+
+          <TabsContent value="interview" className="w-full">
+            <InterviewPage />
           </TabsContent>
         </Tabs>
       </div>

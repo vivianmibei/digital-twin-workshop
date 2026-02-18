@@ -29,7 +29,7 @@
       {
         "title": "Business Analysis | Data Analysis | Data Cleaning | Data Warehouse | Power BI | SQL Knowledge | Communication Skills",
         "issuer": null,
-        "dateRange": "Oct 2020 – Dec 2020"
+        "dateRange": "Oct 2020 – Dec 2023"
       }
     ]
   },
@@ -38,8 +38,8 @@
       "title": "Data Analyst",
       "company": "AusBiz Consulting",
       "location": "Sydney, New South Wales, Australia",
-      "startDate": "September 2022",
-      "endDate": "Current",
+      "startDate": "November 2023",
+      "endDate": "February 2024",
       "responsibilities": [
         "Cancer Analytics project using NHS UK synthetic cancer registry data",
         "Requirement gathering, data acquisition, preparation, cleaning, and transformation",
@@ -53,8 +53,8 @@
       "title": "Business Intelligence Developer / Data Analyst",
       "company": "MVP Studio",
       "location": "Sydney, New South Wales, Australia",
-      "startDate": null,
-      "endDate": null,
+      "startDate": "March 2021",
+      "endDate": "April 2023",
       "responsibilities": [
         "Property analysis project using SQL queries and SSRS reporting",
         "Integrating property data from multiple government data sources",
@@ -65,24 +65,30 @@
       ]
     }
   ],
-  "education": [
+  "education background": [
     {
       "institution": "Federation University",
       "degree": "Master of Technology (Software Engineering)",
-      "startDate": "July 2019",
-      "endDate": "2024"
+      "startDate": "March 2017",
+      "endDate": "July 2019"
     },
     {
       "institution": "Australian Technical & Management College",
-      "degree": "Bachelor of Information Technology",
-      "startDate": "Nov 2020",
-      "endDate": null
+      "degree": "Professional year program",
+      "startDate": "Nov 2019",
+      "endDate": "Nov 2020"
     },
     {
       "institution": "Industry Connect Program",
       "degree": "Business Intelligence Developer (Microsoft SQL Server, Power BI, Data Warehouse, SSIS, SSAS, SSRS, ETL)",
-      "startDate": "2022",
-      "endDate": null
+      "startDate": " March 2021",
+      "endDate": " April 2023"
+    },
+    {
+      "institution": "Institute of International Studies",
+      "degree": "Master in Cybersecurity",
+      "startDate": "March 2025",
+      "endDate": "October 2026"
     }
   ],
   "projects": [
@@ -106,5 +112,52 @@
       "Involved in end-to-end analytics projects",
       "Worked with BI tools, data warehouses, and reporting technologies"
     ]
-  }
+  },
+  "jobDescriptions": [
+    {
+      "id": "seek-datalynx-etl",
+      "title": "ETL Developer / Data Analyst - Datalynx",
+      "description": "COMPANY: Datalynx\nLOCATION: Sydney NSW (Hybrid)\nTYPE: Full Time\n\nEXCITING OPPORTUNITY:\nContribute to strategic ERP-to-Cloud migration and analytics programs across Oracle, SAP, and Dynamics ecosystems. Gain hands-on training in the Datalynx Data Management Suite and develop cutting-edge cloud and data engineering skills. Enjoy hybrid flexibility with a balance of home and office work in a collaborative, innovation-driven team.\n\nABOUT DATALYNX:\nDatalynx is a fast-growing Australian company delivering world-class data management and cloud migration solutions. Our technology powers some of the world's most advanced data transformation programs, supporting a global network of partners and clients including major cloud platform providers such as AWS, Azure, Google, and Oracle.\n\nTHE ROLE:\nWe're seeking an experienced ETL Developer / Data Analyst (6+ years) to join our professional delivery team. You'll work with partners and clients to design, develop, and deliver data management and migration solutions that help major enterprises transition to the Cloud.\n\nKEY RESPONSIBILITIES:\n- Design and implement ETL workflows and SQL-based data transformations\n- Analyse, profile, and cleanse complex datasets from diverse source systems\n- Work with business analysts to translate business rules into technical specifications\n- Interpret data models and assist in developing migration and analytics solutions\n- Identify data quality issues and help define remediation strategies\n- Participate in project meetings and contribute to collaborative team delivery\n- Undertake continuous professional development through Datalynx training and online learning\n\nWHAT YOU'LL BRING - ESSENTIAL:\n- Minimum 6 years' experience in ETL development, data migration, or data integration\n- Strong SQL skills and experience across enterprise database platforms\n- Experience across multiple enterprise database platforms to support diverse client environments\n- Hands-on experience with ETL tools (e.g. Informatica, Talend, DataStage, or similar)\n- Proficiency with commercial ETL tools, demonstrating adaptability across different platforms\n- Understanding of data modelling and relational database concepts\n- Excellent problem-solving, analytical, and communication skills\n- Team-focused mindset and professional approach\n\nDESIRABLE:\n- Experience with Cloud data platforms (AWS, Azure, Google Cloud, or Oracle Cloud)\n- Exposure to ERP or HCM data migrations (especially Oracle, SAP, or Dynamics)\n- Understanding of financial data structures (e.g. GL, Chart of Accounts)\n- Experience working within Government or regulated environments\n- Willingness and capacity to undertake short term overseas travel\n\nPREREQUISITES:\n- Australian citizenship or unrestricted residency and work rights\n- Bachelor's degree in Computing, Information Systems, or related discipline\n- Must successfully complete an Australian Police Check and Working with Children Check\n- Flexibility to attend occasional meetings outside standard hours with international partners"
+    },
+    {
+      "id": "seek-fourquarters-powerbi",
+      "title": "Power BI Developer - FourQuarters Recruitment",
+      "description": "COMPANY: FourQuarters Recruitment (Contract via leading Australian brand)\nLOCATION: Sydney NSW (Hybrid - 3 days per week in office)\nTYPE: Contract/Temporary\nRATE: $800 per day\nDURATION: Initial 6 months with potential extension\n\nABOUT THE OPPORTUNITY:\nA leading Australian brand is looking for a Power BI Developer contractor to work on business critical initiatives within their enterprise environment. You must be Sydney based and able to work in the office 3 days per week.\n\nKEY RESPONSIBILITIES:\n- Strong stakeholder engagement, with the ability to communicate with both non-technical and technical stakeholders\n- Take requirements and translate them into Power BI solutions\n- Develop Power BI dashboards from business requirements and functional design documents\n- Create end user manuals and business glossaries\n- Regular and effective internal customer engagement to build strong partnerships with stakeholders\n- Collaborate with business units and cross-functional teams responsible for IT delivery and services\n- Support the Data & Analytics Teams to build positive working relationships with stakeholders\n- Promote leveraging BI solutions to assist with decision making\n\nYOUR SKILLSET REQUIRED:\n- 5+ years of experience in building Power BI dashboards and reports from scratch\n- Ideally within a fast-paced enterprise environment\n- Strong story-telling experience and design using Power BI\n- Customer / Stakeholder engagement & providing solutions through Business Intelligence\n- DAX & SQL expertise\n- Tabular Models experience\n- Advanced Power BI model optimisation using tools such as DAX Studio, ALM, Tabular Editor, etc.\n- Strong knowledge of Data Warehousing concepts\n- Unlimited working rights to work in Australia\n- Must be Sydney based"
+    },
+    {
+      "id": "seek-macquarie-ba",
+      "title": "Junior Data & AI Solutions Business Analyst - Macquarie Group",
+      "description": "COMPANY: Macquarie Group - Delivery and Execution Services\nLOCATION: Sydney, New South Wales, Australia\nTYPE: Full-time\nSENIORITY: Entry level\nJOB FUNCTION: Information Technology\nINDUSTRY: Financial Services\n\nABOUT MACQUARIE:\nMacquarie is a global financial services group operating in 31 markets with 56 years of unbroken profitability. Our Delivery and Execution Services team drives Macquarie's enterprise-wide strategic initiatives, focusing on data management frameworks, risk domains, and artificial intelligence. We champion innovation and operational excellence.\n\nTHE ROLE:\nAs a Business Analyst, you will apply your expertise to enterprise projects in data management, risk, and AI, collaborating with stakeholders to deliver impactful outcomes. You will drive initiatives to enhance data frameworks, establish risk and governance metrics, and implement AI solutions.\n\nKEY RESPONSIBILITIES:\n- Gather and synthesise requirements from diverse groups\n- Ensure compliance and regulatory considerations\n- Translate business needs into actionable specifications\n- Support project delivery across data management, risk, and AI initiatives\n- Liaise with testing and operations teams\n- Contribute to ongoing improvement and positive team culture\n- Apply expertise to enterprise projects in data management, risk, and AI\n- Collaborate with stakeholders to deliver impactful outcomes\n\nWHAT YOU OFFER:\n- 2+ years' experience in business analysis for enterprise projects\n- Ideally within data management, risk, or AI\n- Strong facilitation skills, with ability to bring structure and clarity to complex situations\n- Adaptable approach to applying business analysis techniques\n- Excellent communication skills\n- Proven ability to simplify technical information\n- Foster productive collaboration across teams\n\nWHAT MACQUARIE OFFERS:\n- 1 wellbeing leave day per year\n- Up to 5 additional service bonus leave days per year\n- Up to 20 weeks' paid parental leave for primary caregivers\n- 2 days of paid volunteer leave and donation matching\n- Up to 12 months' gender affirmation leave, including 6 weeks' paid leave\n- Access to Employee Assistance Program and wellbeing benefits\n- Wide range of salary packaging options\n- Learning and development opportunities, including professional membership reimbursement\n- Hybrid and flexible working arrangements\n- Reimbursement for work from home equipment\n\nAbout Corporate Operations Group:\nYou'll work at the heart of Macquarie in the Corporate Operations Group with deep expertise in technology, data, digital, market operations, corporate real estate, business resilience, procurement and global security.\n\nCOMMITMENT TO DIVERSITY:\nMacquarie is committed to fostering a diverse, equitable and inclusive workplace and welcomes all identities, backgrounds, and abilities."
+    },
+    {
+      "id": "seek-peoplebank-bda",
+      "title": "Business Data Analyst - Peoplebank (Insurance)",
+      "description": "COMPANY: Peoplebank (well-recognised Insurance organisation)\nLOCATION: Sydney, New South Wales, Australia\nTYPE: Contract\nDURATION: 12 months\nWORK ARRANGEMENT: Hybrid - 2-3 days per week onsite\nSENIORITY: Mid-Senior level\nRATE: Competitive daily rate\nCONTACT: Gian Guanzon - gian.guanzon@peoplebank.com.au (Reference: 269042)\n\nTHE ROLE:\nWe're looking for an experienced Business Data Analyst to enable users to get the most out of a cloud-based data platform. Working for a large and well-known Insurance organisation, you'll act as the key link between the business and the development team, helping enable stakeholders to get the most out of a sophisticated data and analytics platform, shaping how solutions are designed, tested, and delivered.\n\nKEY RESPONSIBILITIES:\n- Act as the platform SME (Subject Matter Expert) for business users\n- Enable teams to get the most out of the platform's tools and features\n- Translate business problems into clear concepts for the development team\n- Implement platform enhancements based on business needs\n- Support solution design by clarifying business logic, data needs, and workloads\n- Perform functional QA testing on rules, data pipelines, dashboards, and user interfaces\n- Bridge the gap between business stakeholders and development team\n\nREQUIRED EXPERIENCE:\n- Experience as a Business Data Analyst or Data Platform Specialist\n- Strong communication and stakeholder engagement skills\n- Ability to translate between business and technical language\n- Experience with Palantir Foundry or a similar data platform\n- Strong data skills (SQL queries, data validation, etc.)\n- Exposure to QA testing\n- Passion for technology, problem solving, and continuous improvement\n- Experience working in a regulated industry is preferred\n\nWHY PEOPLEBANK:\n- 12-month contract role with competitive daily rate\n- Hybrid work arrangement (2-3 days per week onsite)\n- Well-recognised insurance organisation\n- Opportunity to work with sophisticated data and analytics platforms\n- Strong focus on enabling business users and platform adoption\n\nDIVERSITY & INCLUSION:\nPeoplebank and Leaders IT are committed to creating a diverse and inclusive workplace where everyone belongs. We welcome applications from people of all backgrounds, identities, and experiences."
+    },
+    {
+      "id": "data-analyst-2025",
+      "title": "Data Analyst",
+      "description": "We are seeking an experienced Data Analyst with 2+ years in SQL, Power BI, and data warehousing. You will be responsible for data acquisition, preparation, cleaning, and analysis. Create ETL pipelines, design and maintain Power BI dashboards, and generate actionable insights from complex datasets. Experience with Azure SQL, SSIS, and relational databases required. Strong communication skills essential for presenting findings to stakeholders."
+    },
+    {
+      "id": "bi-developer-senior",
+      "title": "Senior BI Developer",
+      "description": "Senior Business Intelligence Developer needed for enterprise-level analytics solutions. Design and implement data warehouses using Microsoft SQL Server and SSIS packages. Develop advanced Power BI reports with DAX calculations, SSAS tabular models, and SSRS paginated reports. Lead SQL optimization, create stored procedures, and mentor junior team members. Experience with Azure cloud platform and ETL/ELT processes required. Develop end-to-end analytics solutions from data acquisition to reporting."
+    },
+    {
+      "id": "data-warehouse-architect",
+      "title": "Data Warehouse Architect",
+      "description": "Design and architect scalable data warehouse solutions for large organizations. Expertise in dimensional modeling, star schema design, and ETL architecture. Work with SQL Server, Integration Services (SSIS), and Analysis Services (SSAS). Optimize query performance and manage multi-terabyte databases. Collaborate with data analysts and business stakeholders to understand requirements. 5+ years of data warehouse design and implementation experience preferred."
+    },
+    {
+      "id": "analytics-engineer",
+      "title": "Analytics Engineer",
+      "description": "Analytics Engineer to build data pipelines and analytics infrastructure. Strong SQL skills for data transformation and aggregation. Experience with power BI dashboarding and data visualization. Design efficient ETL processes, optimize database performance, and maintain data quality. Work with cross-functional teams including business analysts and data scientists. Experience with Python or scripting languages beneficial. Drive insights through well-architected analytical systems."
+    },
+    {
+      "id": "sql-server-specialist",
+      "title": "SQL Server Specialist",
+      "description": "Microsoft SQL Server specialist for database administration and development. Expert-level SQL programming including stored procedures, functions, and complex queries. Experience with SSRS for paginated report development and SSIS for ETL processes. Database performance tuning, query optimization, and maintenance. Manage SSAS tabular models. Minimum 3+ years SQL Server experience with healthcare or enterprise data required."
+    }
+  ]
 }

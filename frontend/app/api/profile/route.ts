@@ -8,8 +8,12 @@ export async function GET() {
     // Frontend is in ./frontend/, so go up one level to project root
     const filePath = join(process.cwd(), "..", "digitaltwin.json")
     
+    console.log("[Profile API] Current working directory:", process.cwd())
+    console.log("[Profile API] Looking for file at:", filePath)
+    
     // Check if file exists
     if (!existsSync(filePath)) {
+      console.error("[Profile API] File not found at:", filePath)
       return NextResponse.json(
         { 
           success: false, 
@@ -21,8 +25,13 @@ export async function GET() {
       )
     }
     
+    console.log("[Profile API] File found, reading content...")
+    
     const fileContent = readFileSync(filePath, "utf-8")
+    console.log("[Profile API] File content length:", fileContent.length)
+    
     const profileData = JSON.parse(fileContent)
+    console.log("[Profile API] JSON parsed successfully")
 
     // Format the response with organized skills
     const allSkills = profileData.profile.skills || []
@@ -53,7 +62,7 @@ export async function GET() {
           endDate: exp.endDate || "Present",
           responsibilities: exp.responsibilities || [],
         })),
-        education: profileData.education.map((edu: any) => ({
+        education: (profileData.education || profileData["education background"] || []).map((edu: any) => ({
           institution: edu.institution,
           degree: edu.degree,
           startDate: edu.startDate,
@@ -64,6 +73,7 @@ export async function GET() {
           description: proj.description,
         })),
         certifications: profileData.profile.certifications || [],
+        jobDescriptions: profileData.jobDescriptions || [],
         lastUpdated: new Date().toISOString(),
       },
     }

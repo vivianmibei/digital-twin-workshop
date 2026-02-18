@@ -16,7 +16,7 @@ function getGroqClient() {
 /**
  * Generate a response using Groq with RAG context
  */
-export async function generateResponse(userMessage: string, context: string[], model: string = "mixtral-8x7b-32768") {
+export async function generateResponse(userMessage: string, context: string[], model: string = "llama-3.1-8b-instant") {
   try {
     const client = getGroqClient()
 
@@ -27,27 +27,27 @@ Your expertise includes SQL, Power BI, SSIS, Azure SQL, Data Warehouse Design, P
 Answer questions about Vivian's professional background, skills, and experience based on the provided context.
 Be concise and professional in your responses.`
 
-    const message = await client.messages.create({
+    const message = await client.chat.completions.create({
       model,
       max_tokens: 1024,
       messages: [
+        {
+          role: "system",
+          content: systemPrompt,
+        },
         {
           role: "user",
           content: `${userMessage}${contextStr}`,
         },
       ],
-      system: systemPrompt,
     })
 
-    const responseText =
-      message.content[0].type === "text"
-        ? message.content[0].text
-        : "Unable to generate response"
+    const responseText = message.choices[0].message.content || "Unable to generate response"
 
     return {
       response: responseText,
       model,
-      tokensUsed: message.usage?.input_tokens || 0,
+      tokensUsed: message.usage?.prompt_tokens || 0,
     }
   } catch (error) {
     console.error("Groq API error:", error)
